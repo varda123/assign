@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="framework" duration-ms="2915" started-at="2018-07-16T14:39:07Z" finished-at="2018-07-16T14:39:10Z">
+    <groups>
+    </groups>
+    <test name="framework testing for homepage" duration-ms="2915" started-at="2018-07-16T14:39:07Z" finished-at="2018-07-16T14:39:10Z">
+      <class name="test_classes.hrisTimesheetTest">
+        <test-method status="PASS" signature="testing_timesheetPage()[pri:0, instance:test_classes.hrisTimesheetTest@1753acfe]" name="testing_timesheetPage" duration-ms="375" started-at="2018-07-16T20:09:09Z" finished-at="2018-07-16T20:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing_timesheetPage -->
+      </class> <!-- test_classes.hrisTimesheetTest -->
+      <class name="test_classes.hrisHomePageTest">
+        <test-method status="PASS" signature="actionClass_objects()[pri:0, instance:test_classes.hrisHomePageTest@5d5eef3d]" name="actionClass_objects" is-config="true" duration-ms="4211" started-at="2018-07-16T20:09:02Z" finished-at="2018-07-16T20:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionClass_objects -->
+        <test-method status="PASS" signature="testing_homePage()[pri:0, instance:test_classes.hrisHomePageTest@5d5eef3d]" name="testing_homePage" duration-ms="2527" started-at="2018-07-16T20:09:07Z" finished-at="2018-07-16T20:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing_homePage -->
+      </class> <!-- test_classes.hrisHomePageTest -->
+    </test> <!-- framework testing for homepage -->
+  </suite> <!-- framework -->
+</testng-results>

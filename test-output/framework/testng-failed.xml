@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [framework]">
+  <test name="framework testing for homepage(failed)">
+    <classes>
+      <class name="test_classes.hrisHomePageTest">
+        <methods>
+          <include name="actionClass_objects"/>
+        </methods>
+      </class> <!-- test_classes.hrisHomePageTest -->
+      <class name="test_classes.hrisTimesheetTest">
+        <methods>
+          <include name="testing_timesheetPage"/>
+          <include name="actionClass_objects"/>
+        </methods>
+      </class> <!-- test_classes.hrisTimesheetTest -->
+    </classes>
+  </test> <!-- framework testing for homepage(failed) -->
+</suite> <!-- Failed suite [framework] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="framework" parallel="test" verbose="1" configfailurepolicy="continue" >
+   
+  <test name="framework testing for homepage" >
+    <classes >
+      <class name="test_classes.hrisHomePageTest">
+    </class>
+    <class name="test_classes.hrisTimesheetTest">
+    </class>
+    </classes>
+ </test>
+ <!--  
+ <test name="framework testing for timesheet" >
+    <classes >
+      <class name="test_classes.hrisTimesheetTest">
+        <methods>
+            <include name="testingForMozilla" />
+          </methods>
+    </class>
+    </classes>
+ </test>
+  -->
+ </suite>
+ 
